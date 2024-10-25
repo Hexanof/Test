@@ -1,0 +1,21 @@
+body{
+  font-family: "open_sanslight"sans-serif;
+  margin:0px;
+  padding:0px;
+}
+
+.z{
+  
+  text-align: center;
+}
+
+/* couleur pour les lettres du titre de ma page*/
+.p1{
+  
+  color: #0913EB
+}
+
+.p2{
+  
+  color:#EB0909;
+}
