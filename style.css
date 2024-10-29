@@ -1,21 +1,202 @@
-body{
-  font-family: "open_sanslight"sans-serif;
-  margin:0px;
-  padding:0px;
+.page1 {
+  font-family: "open_sanslight" sans-serif;
+  font-style: italic;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  /*pour empêcher les navigateurs d'appliquer leur margine et padding par défaut*/
+  background-image: url(dj.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+
 }
 
-.z{
-  
+
+.div1 {
+
+  display: flex;
+  background-color: rgba(181, 188, 196, 0.5);
+  padding-top: 25px;
+
+
+}
+
+
+
+a {
+
+  text-decoration: none;
+
+}
+
+.H a {
+
+  color: white;
+  text-shadow: 0 0 10px #ff9900,
+    0 0 20px #ff6600,
+    0 0 30px #ff3300,
+    0 0 40px #ff0000;
+}
+
+.H {
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  top: -3%;
+}
+
+/*La partie pour le lien de la page 2*/
+
+nav a {
+  text-transform: uppercase;
+  position: absolute;
+  right: 24px;
+  top: 2%;
+  color: green;
+  border: 1px solid black;
+  border-radius: 8px
+}
+
+/* Pour l'image mixtape qui sera le lien de la deuxième page*/
+#mix {
+  top: 4px;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  background-image: url(mixtape.jpg);
+  background-position: 6px 0px;
+
+}
+
+nav a:hover {
+
+  background-color: yellow;
+}
+
+.paragraphe {
+  color: white;
+  font-size: 17px;
+}
+
+.paragraphe2 {
+  color: white;
+  font-size: 17px;
+}
+
+.fin {
+
+  color: yellow;
+  font-style: italic;
+  font-size: 23px;
+}
+
+.ic {
+
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid green;
+}
+
+.maj {
+  color: yellow;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #ff9900,
+    0 0 10px #ff6600;
+  font-size: 23px;
+}
+
+footer {
+  border-top: 2px solid #C8C4D7;
+  color: white;
+  padding: 40px;
+
+}
+
+footer p {
+
+  position: absolute;
+  bottom: -330px;
+  left: 100px;
+  right: 100px;
+
+}
+
+
+
+#fb {
+
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-block;
+
+
+
+}
+
+#fb {
+  background-image: url(image.jpg);
+  background-position: 0px 0px;
+  border-radius: 35px;
+  top: 750px;
+
+
+}
+
+
+
+
+@media screen and (min-width: 720px) {
+
+  .page1 {
+    width: 100%;
+
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .page1 {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+/*Style pour la deuxième page*/
+
+.page2 {
   text-align: center;
+  background-image: url(MIX.jpg);
+  margin: 0px;
+  padding: 0px;
 }
 
-/* couleur pour les lettres du titre de ma page*/
-.p1{
-  
-  color: #0913EB
+.div2 {
+
+  background-color: rgba(181, 188, 196, 0.5);
 }
 
-.p2{
-  
-  color:#EB0909;
+.H1 a {
+
+  color: white;
+  text-shadow: 0 0 10px #ff9900,
+    0 0 20px #ff6600,
+    0 0 30px #ff3300,
+    0 0 40px #ff0000;
+
+}
+
+h2 {
+
+  color: orange;
+}
+
+.box>img {
+
+  width: -80px;
+
 }
