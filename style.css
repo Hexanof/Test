@@ -7,12 +7,15 @@
   /*pour empêcher les navigateurs d'appliquer leur margine et padding par défaut*/
   background-image: url(dj.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-
-
-
+  background-attachment: fixed"";
 }
 
+.page1::after{
+  
+  content:"";
+  display: table;
+  clear: both;
+}
 
 .div1 {
 
@@ -108,20 +111,17 @@ nav a:hover {
   font-size: 23px;
 }
 
-footer {
-  border-top: 2px solid #C8C4D7;
-  color: white;
-  padding: 40px;
 
+.f > p{
+  
+    color: white;
+    text-align: center;
 }
 
-footer p {
-
-  position: absolute;
-  bottom: -330px;
-  left: 100px;
-  right: 100px;
-
+.f{
+  border-top: 2px solid white;
+  padding:10px;
+  background-color:#B9BAC4;
 }
 
 
@@ -141,7 +141,7 @@ footer p {
   background-image: url(image.jpg);
   background-position: 0px 0px;
   border-radius: 35px;
-  top: 750px;
+  
 
 
 }
