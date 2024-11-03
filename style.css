@@ -21,7 +21,7 @@
 
   display: flex;
   background-color: rgba(181, 188, 196, 0.5);
-  padding-top: 12%;
+  padding-top: 9%;
 
 
 }
@@ -79,26 +79,25 @@ nav a:hover {
   background-color: yellow;
 }
 
-.paragraphe {
+.paragraphe , .paragraphe2{
   color: white;
-  font-size: 17px;
+  font-size: 18px;
+  text-align: center;
 }
 
-.paragraphe2 {
-  color: white;
-  font-size: 17px;
-}
+
+
 
 .fin {
 
   color: yellow;
   font-style: italic;
-  font-size: 23px;
+  font-size: 15px;
 }
 
 .ic {
 
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   border-bottom: 2px solid green;
 }
@@ -153,6 +152,7 @@ nav a:hover {
 
   .page1 {
     width: 100%;
+    
 
   }
 
