@@ -7,7 +7,7 @@
   /*pour empêcher les navigateurs d'appliquer leur margine et padding par défaut*/
   background-image: url(dj.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed"";
+  background-attachment: fixed;
 }
 
 .page1::after{
@@ -21,7 +21,7 @@
 
   display: flex;
   background-color: rgba(181, 188, 196, 0.5);
-  padding-top: 25px;
+  padding-top: 12%;
 
 
 }
@@ -161,7 +161,16 @@ nav a:hover {
 @media screen and (min-width: 1200px) {
   .page1 {
     width: 100%;
-    height: 100%;
+   
+  }
+
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 720px)   {
+  .page1 {
+    width: 100%;
+
   }
 
 }
